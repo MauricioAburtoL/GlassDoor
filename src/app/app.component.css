@@ -5,14 +5,14 @@
     display: grid;
     grid:
       "header header header" auto
-      "Menu body WidgetAdmin" 1fr
-      "footer footer footer" auto
-      / auto 1fr auto;
+      "leftSide body rightSide" 1fr
+      "footer footer footer" 140px
+      / 240px auto 240px;
     gap: 8px;
   }
   
   .header { grid-area: header; }
-  .Menu { grid-area: Menu; }
+  .leftSide { grid-area: leftSide; }
   .body { grid-area: body; }
-  .WidgetAdmin { grid-area: WidgetAdmin; }
+  .rightSide { grid-area: rightSide; }
   .footer { grid-area: footer; }

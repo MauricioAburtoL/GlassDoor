@@ -1,0 +1,26 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Raleway", sans-serif;
+}
+
+.circular-icon {
+    display: inline-block;
+    background-color: #0074d9;
+    /* Color de fondo del círculo */
+    color: #fff;
+    /* Color del ícono */
+    width: 40px;
+    /* El ancho y alto deseado para el círculo */
+    height: 40px;
+    line-height: 40px;
+    /* Para centrar verticalmente el ícono */
+    border-radius: 50%;
+    /* Hace que el elemento sea un círculo */
+    text-align: center;
+    /* Para centrar horizontalmente el ícono */
+}
